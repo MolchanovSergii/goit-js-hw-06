@@ -8,6 +8,5 @@ console.log(ourText)
 ourControl.addEventListener("input", changeSize);
 
 function changeSize(event) {
-    const size = ourControl.value;
     ourText.style.fontSize = ourControl.value +"px";
 }
