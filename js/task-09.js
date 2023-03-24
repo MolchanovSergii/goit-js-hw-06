@@ -11,9 +11,7 @@ const ourBody = document.body;
 ourBtn.addEventListener("click", changeColor);
 
 function changeColor(event) {
-  const ourNumber = prompt("введите любое число");
-
-  const chooseColor = getRandomHexColor(ourNumber);  
+  const chooseColor = getRandomHexColor();  
 
   ourBody.style.backgroundColor = chooseColor;
   colorNow.textContent = chooseColor;
