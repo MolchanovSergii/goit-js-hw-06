@@ -18,3 +18,4 @@ const markup = ingredients.map(element => {
 });
 
 list.append(...markup);
+
