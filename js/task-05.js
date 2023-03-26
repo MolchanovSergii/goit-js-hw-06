@@ -14,6 +14,3 @@ function changeSpan(event) {
          ourSpan.textContent = "Anonymous";
     }
 }
-
-
-console.log(ourSpan);

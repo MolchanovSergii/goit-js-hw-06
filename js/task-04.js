@@ -13,5 +13,4 @@ incrementBtn.addEventListener("click", () => {
   counter.textContent = counterValue;
 });
 
-console.log(counter);
 
