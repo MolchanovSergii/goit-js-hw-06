@@ -4,7 +4,10 @@ const ourLength = parseInt(document.querySelector("#validation-input").dataset.l
 ourInput.addEventListener("blur", checkLength);
 
 function checkLength(event) {
-    if (ourInput.value.length !== ourLength) {
+
+    const text = ourInput.value.trim();
+
+    if (text.length !== ourLength) {
         event.currentTarget.classList.add("invalid");
     } else {
         event.currentTarget.classList.remove("invalid");

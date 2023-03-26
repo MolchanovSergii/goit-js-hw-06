@@ -16,7 +16,7 @@ function sendForm(event) {
         password
     };
 
-    console.log(`користувач ввів адрес єл.скриньки: ${email}, та пароль до неї: ${password}`);
+    console.log(elements);
 
     ourForm.reset();
 }
